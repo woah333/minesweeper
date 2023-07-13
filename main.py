@@ -1,11 +1,7 @@
 from mine_sweeper_module import minesweeperboard
+from game import game
 
 if __name__ == "__main__":
-    minesweeperboardvar = minesweeperboard()
-    minesweeperboardvar.setStuff(minesweeperboardvar.startfunc())
-    #easeasminesweeperboardvar.board()
-    #while amountminesactive 
-    #minesweeperboardvar.minelaying()
-    #print(minesweeperboardvar.getTileList())
-    minesweeperboardvar.questionfunc()
+    newgame = game()
+    newgame.startfunc()
     ## TESTING NEW CLASS
